@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/devops")
 def read_root():
-    return {"Olá, Mundo DevOps!"}
+    return {"Olá, Python!"}
 
 @app.get("/formativa")
 async def funcaoteste():
