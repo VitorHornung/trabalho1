@@ -4,10 +4,10 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/helloworld")
+@app.get("/devops")
 def read_root():
-    return {"Hello": "World"}
+    return {"Olá, "}
 
-@app.get("/funcaoteste")
+@app.get("/formativa")
 async def funcaoteste():
     return {"teste": True, "num_aleatorio": random.randint(0, 1000)}
